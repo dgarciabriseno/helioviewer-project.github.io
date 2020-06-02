@@ -4,12 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+### The Helioviewer Project
 
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
-
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+The aim of the Helioviewer Project is to enable exploration of the Sun and the inner heliosphere for everyone, everywhere via intuitive interfaces and novel technology.  
+The project is split into two main development efforts:  
+**[Helioviewer.org](https://helioviewer.org)** - A web application for visualizing solar images and feature/event data in the web browser.  
+**[JHelioviewer](https://www.jhelioviewer.org)** - A Java/OpenGL application for visualizing time series of solar images and feature/event data.  
