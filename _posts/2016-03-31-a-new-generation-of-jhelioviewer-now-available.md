@@ -28,7 +28,7 @@ A full description of the installation, running of the software and new features
 The work was carried out by SIDC @ Royal Observatory of Belgium (ROB). The new JHelioviewer will continue to undergo improvements in the future, meanwhile feedback is welcome at swhv – at &#8211; sidc.be .
 
 <div id="attachment_1343" style="width: 610px" class="wp-caption alignnone">
-  <img aria-describedby="caption-attachment-1343" class="size-medium wp-image-1343" src="https://helioviewer-project.github.io/images/uploads/2016/03/JHV_2.9.10_screenshot_w700-600x418.png" alt="Screenshot of JHelioviewer 2.10" width="600" height="418" srcset="http://blog.helioviewer.org/wp-content/uploads/2016/03/JHV_2.9.10_screenshot_w700-600x418.png 600w, http://blog.helioviewer.org/wp-content/uploads/2016/03/JHV_2.9.10_screenshot_w700.png 700w" sizes="(max-width: 600px) 100vw, 600px" />
+  <img aria-describedby="caption-attachment-1343" class="size-medium wp-image-1343" src="https://helioviewer-project.github.io/images/uploads/2016/03/JHV_2.9.10_screenshot_w700-600x418.png" alt="Screenshot of JHelioviewer 2.10" width="600" height="418"  sizes="(max-width: 600px) 100vw, 600px" />
   
   <p id="caption-attachment-1343" class="wp-caption-text">
     Screenshot of JHelioviewer 2.10

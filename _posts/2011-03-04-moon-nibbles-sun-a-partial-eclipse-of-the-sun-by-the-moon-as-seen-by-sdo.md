@@ -17,7 +17,7 @@ Today the Moon is passing across the field of view of AIA on board SDO. AIA sees
 
 
 <div id="attachment_186" style="width: 510px" class="wp-caption alignnone">
-  <a href="https://helioviewer-project.github.io/images/uploads/2011/03/2011_03_04_14_59_56.000_AIA_304_2064686867.jpg"><img aria-describedby="caption-attachment-186" src="https://helioviewer-project.github.io/images/uploads/2011/03/2011_03_04_14_59_56.000_AIA_304_2064686867-300x205.jpg" alt="A partial eclipse of the Sun by the Moon as seen by SDO" title="2011_03_04_14_59_56.000_AIA_304_2064686867" width="300" height="205" class="size-medium wp-image-186" srcset="http://blog.helioviewer.org/wp-content/uploads/2011/03/2011_03_04_14_59_56.000_AIA_304_2064686867-300x205.jpg 300w, http://blog.helioviewer.org/wp-content/uploads/2011/03/2011_03_04_14_59_56.000_AIA_304_2064686867-1024x701.jpg 1024w, http://blog.helioviewer.org/wp-content/uploads/2011/03/2011_03_04_14_59_56.000_AIA_304_2064686867.jpg 1291w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="https://helioviewer-project.github.io/images/uploads/2011/03/2011_03_04_14_59_56.000_AIA_304_2064686867.jpg"><img aria-describedby="caption-attachment-186" src="https://helioviewer-project.github.io/images/uploads/2011/03/2011_03_04_14_59_56.000_AIA_304_2064686867-300x205.jpg" alt="A partial eclipse of the Sun by the Moon as seen by SDO" title="2011_03_04_14_59_56.000_AIA_304_2064686867" width="300" height="205" class="size-medium wp-image-186"   sizes="(max-width: 300px) 100vw, 300px" /></a>
   
   <p id="caption-attachment-186" class="wp-caption-text">
     Moon nibbles Sun: a partial eclipse of the Sun by the Moon as seen by SDO

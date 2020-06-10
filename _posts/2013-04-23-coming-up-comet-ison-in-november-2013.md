@@ -18,7 +18,7 @@ categories:
 You may have heard of Comet ISON, a comet discovered last year that is currently approaching the Sun. It is expected to be visible in the SOHO-LASCO C2 and C3: from SOHO&#8217;s viewpoint the comet enters from the lower right early on November 27 and exits towards the top near the end of November 30 this year.
 
 <div id="attachment_1117" style="width: 310px" class="wp-caption aligncenter">
-  <a href="https://helioviewer-project.github.io/images/uploads/2013/04/ISON_LASCO1.jpg"><img aria-describedby="caption-attachment-1117" src="https://helioviewer-project.github.io/images/uploads/2013/04/ISON_LASCO1-300x209.jpg" alt="Path of COMET ISON as seen from SOHO" width="300" height="209" class="size-medium wp-image-1117" srcset="http://blog.helioviewer.org/wp-content/uploads/2013/04/ISON_LASCO1-300x209.jpg 300w, http://blog.helioviewer.org/wp-content/uploads/2013/04/ISON_LASCO1.jpg 720w" sizes="(max-width: 300px) 100vw, 300px" /></a>
+  <a href="https://helioviewer-project.github.io/images/uploads/2013/04/ISON_LASCO1.jpg"><img aria-describedby="caption-attachment-1117" src="https://helioviewer-project.github.io/images/uploads/2013/04/ISON_LASCO1-300x209.jpg" alt="Path of COMET ISON as seen from SOHO" width="300" height="209" class="size-medium wp-image-1117" sizes="(max-width: 300px) 100vw, 300px" /></a>
   
   <p id="caption-attachment-1117" class="wp-caption-text">
     Path of COMET ISON as seen from SOHO LASCO C2 and C3 coronagraphs.

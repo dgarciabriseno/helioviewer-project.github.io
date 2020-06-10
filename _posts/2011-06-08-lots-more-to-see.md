@@ -27,7 +27,7 @@ categories:
 
 or this [intriguing prominence (the dark wispy shape close to the edge of the Sun&#8217;s disk) evolution](http://sdowww.lmsal.com/sdomedia/h264/2011/06/04/AVC_KarelSchrijver_20110604T235956-20110605T235956_SDO_211-193-171_240.0_20110608_144809.mov), spotted just a couple of days ago by [the Solar Dynamics Observatory](http://sdo.gsfc.nasa.gov):
 
-[<img src="https://helioviewer-project.github.io/images/uploads/2011/06/Screenshot_k-1024x570.png" alt="" title="Screenshot_k" width="640" class="aligncenter size-large wp-image-369" srcset="http://blog.helioviewer.org/wp-content/uploads/2011/06/Screenshot_k-1024x570.png 1024w, http://blog.helioviewer.org/wp-content/uploads/2011/06/Screenshot_k-300x167.png 300w" sizes="(max-width: 1024px) 100vw, 1024px" />](http://sdowww.lmsal.com/sdomedia/h264/2011/06/04/AVC_KarelSchrijver_20110604T235956-20110605T235956_SDO_211-193-171_240.0_20110608_144809.mov)
+[<img src="https://helioviewer-project.github.io/images/uploads/2011/06/Screenshot_k-1024x570.png" alt="" title="Screenshot_k" width="640" class="aligncenter size-large wp-image-369"   sizes="(max-width: 1024px) 100vw, 1024px" />](http://sdowww.lmsal.com/sdomedia/h264/2011/06/04/AVC_KarelSchrijver_20110604T235956-20110605T235956_SDO_211-193-171_240.0_20110608_144809.mov)
 
 We can even sometimes see comets when we look at the Sun:  
 

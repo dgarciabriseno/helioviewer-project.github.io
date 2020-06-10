@@ -14,7 +14,7 @@ Comet ISON will shortly appear in images from our suite of Sun-watching instrume
 Comet ISON will first appear in [LASCO C3 at 02:00 UT on Wednesday 27th November](http://sohowww.nascom.nasa.gov/hotshots/index.html/), and will appear in the LASCO C2 field-of-view at 13:00 UT on Thursday 28th November.
 
 <div id="attachment_1117" style="width: 610px" class="wp-caption aligncenter">
-  <a href="https://helioviewer-project.github.io/images/uploads/2013/04/ISON_LASCO1.jpg"><img aria-describedby="caption-attachment-1117" src="https://helioviewer-project.github.io/images/uploads/2013/04/ISON_LASCO1.jpg" alt="Path of COMET ISON as seen from SOHO" width="600" height="420" class="size-full wp-image-1117" srcset="http://blog.helioviewer.org/wp-content/uploads/2013/04/ISON_LASCO1.jpg 720w, http://blog.helioviewer.org/wp-content/uploads/2013/04/ISON_LASCO1-300x209.jpg 300w" sizes="(max-width: 600px) 100vw, 600px" /></a>
+  <a href="https://helioviewer-project.github.io/images/uploads/2013/04/ISON_LASCO1.jpg"><img aria-describedby="caption-attachment-1117" src="https://helioviewer-project.github.io/images/uploads/2013/04/ISON_LASCO1.jpg" alt="Path of COMET ISON as seen from SOHO" width="600" height="420" class="size-full wp-image-1117"  sizes="(max-width: 600px) 100vw, 600px" /></a>
   
   <p id="caption-attachment-1117" class="wp-caption-text">
     Path of COMET ISON as seen from SOHO LASCO C2 and C3 coronagraphs.

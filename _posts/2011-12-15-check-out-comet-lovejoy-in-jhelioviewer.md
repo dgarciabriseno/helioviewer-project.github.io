@@ -14,7 +14,7 @@ Want Comet Lovejoy on your desktop&#8230;.?
 Download [JHelioviewer](http://jhelioviewer.org/).
 
 <p style="text-align: center;">
-  <a href="https://helioviewer-project.github.io/images/uploads/2011/12/JHelioviewer_Screenshot-at-2011-12-15-133426.png"><img class="aligncenter  wp-image-645" title="JHelioviewer_Screenshot at 2011-12-15 13:34:26" src="https://helioviewer-project.github.io/images/uploads/2011/12/JHelioviewer_Screenshot-at-2011-12-15-133426-1024x792.png" alt="" width="614" height="475" srcset="http://blog.helioviewer.org/wp-content/uploads/2011/12/JHelioviewer_Screenshot-at-2011-12-15-133426-1024x792.png 1024w, http://blog.helioviewer.org/wp-content/uploads/2011/12/JHelioviewer_Screenshot-at-2011-12-15-133426-300x232.png 300w, http://blog.helioviewer.org/wp-content/uploads/2011/12/JHelioviewer_Screenshot-at-2011-12-15-133426.png 1170w" sizes="(max-width: 614px) 100vw, 614px" /></a>
+  <a href="https://helioviewer-project.github.io/images/uploads/2011/12/JHelioviewer_Screenshot-at-2011-12-15-133426.png"><img class="aligncenter  wp-image-645" title="JHelioviewer_Screenshot at 2011-12-15 13:34:26" src="https://helioviewer-project.github.io/images/uploads/2011/12/JHelioviewer_Screenshot-at-2011-12-15-133426-1024x792.png" alt="" width="614" height="475"   sizes="(max-width: 614px) 100vw, 614px" /></a>
 </p>
 
 Because of the increased interest in solar images caused by the appearance of [Comet Lovejoy](http://sohowww.nascom.nasa.gov/pickoftheweek/old/03dec2011/), Helioviewer.org users may need to wait for longer than usual in order to create a movie.

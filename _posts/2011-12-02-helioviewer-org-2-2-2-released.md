@@ -12,7 +12,7 @@ categories:
 A new version of Helioviewer.org has been released, including a few new features to make it easier to share videos and links.
 
 <p style="text-align: center;">
-  <a href="https://helioviewer-project.github.io/images/uploads/2011/12/Helioviewer_social_media_icons.png"><img class="aligncenter size-full wp-image-618" title="Helioviewer_social_media_icons" src="https://helioviewer-project.github.io/images/uploads/2011/12/Helioviewer_social_media_icons.png" alt="" width="662" height="482" srcset="http://blog.helioviewer.org/wp-content/uploads/2011/12/Helioviewer_social_media_icons.png 945w, http://blog.helioviewer.org/wp-content/uploads/2011/12/Helioviewer_social_media_icons-300x218.png 300w" sizes="(max-width: 662px) 100vw, 662px" /></a>
+  <a href="https://helioviewer-project.github.io/images/uploads/2011/12/Helioviewer_social_media_icons.png"><img class="aligncenter size-full wp-image-618" title="Helioviewer_social_media_icons" src="https://helioviewer-project.github.io/images/uploads/2011/12/Helioviewer_social_media_icons.png" alt="" width="662" height="482"   sizes="(max-width: 662px) 100vw, 662px" /></a>
 </p>
 
 **RELEASE NOTES:**

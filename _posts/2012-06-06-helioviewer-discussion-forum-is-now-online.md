@@ -14,7 +14,7 @@ categories:
 Alongside of our coverage of the last [Transit of Venus](http://www.transitofvenus.org/) that most of us will get to see (the next one will be in [2117](http://www.transitofvenus.org/faq/113-when-is-the-next-transit-of-venus-after-2012) for those of you who are particularly ambitious!) we are also launching a new online discussion forum: [community.helioviewer.org](http://community.helioviewer.org/).
 
 <p style="text-align: center;">
-  <a href="http://community.helioviewer.org" target="_blank"><img class="aligncenter  wp-image-934" title="Helioviewer.org Community Forum" src="https://helioviewer-project.github.io/images/uploads/2012/06/helioviewer_community.png" alt="Screenshot of community.helioviewer.org" width="640" height="386" srcset="http://blog.helioviewer.org/wp-content/uploads/2012/06/helioviewer_community.png 1280w, http://blog.helioviewer.org/wp-content/uploads/2012/06/helioviewer_community-300x181.png 300w, http://blog.helioviewer.org/wp-content/uploads/2012/06/helioviewer_community-1024x618.png 1024w" sizes="(max-width: 640px) 100vw, 640px" /></a>
+  <a href="http://community.helioviewer.org" target="_blank"><img class="aligncenter  wp-image-934" title="Helioviewer.org Community Forum" src="https://helioviewer-project.github.io/images/uploads/2012/06/helioviewer_community.png" alt="Screenshot of community.helioviewer.org" width="640" height="386" sizes="(max-width: 640px) 100vw, 640px" /></a>
 </p>
 
 <p style="text-align: center;">

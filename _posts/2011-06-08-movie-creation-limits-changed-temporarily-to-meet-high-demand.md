@@ -11,7 +11,7 @@ categories:
   - Helioviewer.org
   - Movies
 ---
-In response to [the huge demand resulting from yesterday&#8217;s spectacular eruption](https://blog.helioviewer.org/2011/06/07/lots-of-traffic-equals-long-movie-waits/), we are going to temporarily decrease the maximum size of the movies created on Helioviewer.org.
+In response to [the huge demand resulting from yesterday&#8217;s spectacular eruption](https://helioviewer-project.github.io/2011/06/07/lots-of-traffic-equals-long-movie-waits/), we are going to temporarily decrease the maximum size of the movies created on Helioviewer.org.
 
 When you request a movie on Helioviewer.org we attempt to use as many images as are available for the requested time period, within a specified limit. Normally that limit is 300 images. For a single-layer movie this meant that the movie would be created using about 300 images. For multi-layer movies, the number of images allowed is divided by the number of layers included or order to deal with the increased strain. For instance, if you requested a two-layer movie (e.g. AIA 304 and LASCO C2), the limit would go become 300 / 2 = 150 images. Similarly, for a three-layer movie the limit would be 300 / 3 = 100 images. All of this is simply to make it possible to create movies in a reasonable amount of time, within the constraints of the server Helioviewer.org runs on.
 

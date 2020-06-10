@@ -13,7 +13,7 @@ As some of you may have noticed, a few new features were added to Helioviewer.or
 
 Probably the most useful change included in this release is the ability to share movie links in Helioviewer.org without having to upload a movie to YouTube first.
 
-[<img class="aligncenter size-full wp-image-577" title="Helioviewer.org 2.2.1 Movie Link Button Screenshot" src="https://helioviewer-project.github.io/images/uploads/2011/10/Screenshot-at-2011-10-20-1206461.png" alt="" width="487" height="684" srcset="http://blog.helioviewer.org/wp-content/uploads/2011/10/Screenshot-at-2011-10-20-1206461.png 487w, http://blog.helioviewer.org/wp-content/uploads/2011/10/Screenshot-at-2011-10-20-1206461-213x300.png 213w" sizes="(max-width: 487px) 100vw, 487px" />](https://helioviewer-project.github.io/images/uploads/2011/10/Screenshot-at-2011-10-20-1206461.png)[  
+[<img class="aligncenter size-full wp-image-577" title="Helioviewer.org 2.2.1 Movie Link Button Screenshot" src="https://helioviewer-project.github.io/images/uploads/2011/10/Screenshot-at-2011-10-20-1206461.png" alt="" width="487" height="684"   sizes="(max-width: 487px) 100vw, 487px" />](https://helioviewer-project.github.io/images/uploads/2011/10/Screenshot-at-2011-10-20-1206461.png)[  
 ](https://helioviewer-project.github.io/images/uploads/2011/10/Screenshot-at-2011-10-20-120646.png) 
 
 Other changes are listed below.
