@@ -70,12 +70,6 @@ Now try running one of the Kakadu tools to make sure everything was set up prope
 
 `kdu_merge`  
 
-`Usage:`  
-`"kdu_merge ...`  
-`   -i <JP2/JPX/MJ2 file 1>[:<track>][:<from>-<to>][,...]`  
-`   -o <JPX or MJ2 file>`  
-`   .......`   
-
 ### Create Caching/Logging Directories
 
 In order to function properly, Helioviewer requires write-access to several directories. Tiles, screenshots, and movies are stored in a "cache" directory and logs are stored in a "log" directory. Additionally, if you plan to use a JPIP server in conjunction with Helioviewer, a "movies" directory must be created within the JPEG 2000 archive so that generated JPX files may be accessed over JPIP.
@@ -99,17 +93,6 @@ By default, the "compress_js" and "compress_css" parameters are set to "true" an
 
 `cd helioviewer/resources/build`  
 `ant`  
-
-` Buildfile: /var/www/helioviewer/resources/build/build.xml`  
-` clean:`  
-`    [echo] Removing old build files`  
-` build:`  
-`    [echo] Concatenating JavaScript/CSS`  
-`    [echo] Minifying JavaScript/CSS`  
-`    .......`  
-`    [echo] Done!`  
-` BUILD SUCCESSFUL`  
-` Total time: 3 seconds`  
 
 Modify the database credentials in the "Private.php" file with the values you entered in the installation GUI.
 
