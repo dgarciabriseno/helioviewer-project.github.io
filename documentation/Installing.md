@@ -1,7 +1,14 @@
 ---
 layout: page
 title: Installing Helioviewer
+permalink: /install/
 ---
+
+## To Use
+
+Simply visit [Helioviewer.org](https://helioviewer.org)
+
+However, if you wish to install the Helioviewer Project on your own machine this document has been created to aid you in this process.
 
 ### Prerequisites
 
