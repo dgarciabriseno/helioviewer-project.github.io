@@ -15,8 +15,11 @@ However, if you wish to install the Helioviewer Project on your own machine this
 First you will need to install all required packages.
 
 ``sudo apt update;  
+
 sudo apt upgrade;  
+
 sudo apt install apache2 php php-curl php-pear php-mysqli php-imagick php-mbstring php-bcmath libapache2-mod-php mysql-server redis-server imagemagick python-mysqldb python3-mysqldb python-tk python3-tk python-pip python3-pip ffmpeg git libpng-dev libgsf-1-114 git;  
+
 pip3 install sunpy glymur zeep bs4 drms lxml``  
 
 ### Clone source-code
@@ -68,19 +71,33 @@ Now try running one of the Kakadu tools to make sure everything was set up prope
 
 `kdu_merge`  
 ``Usage:  
+
  "kdu_merge ...  
+
   -i <JP2/JPX/MJ2 file 1>[:<track>][:<from>-<to>][,...]  
+
   -o <JPX or MJ2 file>  
+
   -no_interleave -- don't interleave JPX headers with codestreams  
+
   -links -- record links rather than actual codestream data  
+
   -jpx_layers (<input>:<elt>)|(<space>,[alpha,]<channels>) [...]  
+
   -mj2_tracks (P|I1|I2):<from>-[<to>][@<fps>][,<from>-...] [...]  
+
   -composit [<iterations>@<fps>*]<layer-descriptor>[,...] [...]  
+
   -album [<seconds/frame>]  
+
   -s <switch file>  
+
   -quiet -- suppress informative messages.  
+
   -version -- print core system version I was compiled against.  
+
   -v -- abbreviation of `-version'  
+
   -usage -- print a comprehensive usage stat``
 
 
@@ -109,14 +126,23 @@ By default, the "compress_js" and "compress_css" parameters are set to "true" an
 `ant`
 
 `` Buildfile: /var/www/helioviewer/resources/build/build.xml  
+
  clean:  
+
     [echo] Removing old build files  
+
  build:  
+
     [echo] Concatenating JavaScript/CSS  
+
     [echo] Minifying JavaScript/CSS  
+
     .......  
+
     [echo] Done!  
+
  BUILD SUCCESSFUL  
+
  Total time: 3 seconds``
 
 
