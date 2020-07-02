@@ -14,7 +14,10 @@ However, if you wish to install the Helioviewer Project on your own machine this
 
 First you will need to install all required packages.
 
-`sudo apt update; sudo apt upgrade; sudo apt install apache2 php php-curl php-pear php-mysqli php-imagick php-mbstring php-bcmath libapache2-mod-php mysql-server redis-server imagemagick python-mysqldb python3-mysqldb python-tk python3-tk python-pip python3-pip ffmpeg git libpng-dev libgsf-1-114 git; pip3 install sunpy glymur zeep bs4 drms lxml`  
+``sudo apt update;  
+sudo apt upgrade;  
+sudo apt install apache2 php php-curl php-pear php-mysqli php-imagick php-mbstring php-bcmath libapache2-mod-php mysql-server redis-server imagemagick python-mysqldb python3-mysqldb python-tk python3-tk python-pip python3-pip ffmpeg git libpng-dev libgsf-1-114 git;  
+pip3 install sunpy glymur zeep bs4 drms lxml``  
 
 ### Clone source-code
 
@@ -37,11 +40,11 @@ If you don't already have a JP2 dataset, you can download a sample dataset, e.g.
 
 If the MySQL daemon is not already running, start it:
 
-`sudo /etc/init.d/mysqld start`
+`sudo service mysql start`
 
 Change to the "api/install" directory and run the Helioviewer installation script:
 
-`python3 install.py`
+`python3 install.py`  
 
 Follow the steps shown on screen. Processing the JPEG 2000 archive may take anywhere from several minutes to many hours depending on the size of the archives, and the number of files to be processed. For a small dataset like the sample one provided above, processing should only be a matter of minutes. 
 
@@ -49,12 +52,13 @@ Follow the steps shown on screen. Processing the JPEG 2000 archive may take anyw
 
 Kakadu binaries and shared libraries for 32-bit and 64-bit linux can be found in the install/kakadu directory. Select the appropriate archive based on your architecture and extract the files:
 
-`tar zxvpf install/kakadu/Kakadu_v6_3_1-00781N_Linux-64-bit-Compiled.tar.gz`
+`tar zxvpf install/kakadu/Kakadu_v6_3_1-00781N_Linux-64-bit-Compiled.tar.gz`  
 
 Next, login as root (`sudo -s`) and copy the Kakadu shared libraries and binaries to a known path, e.g.:
 
 `mv lib/* /usr/local/lib/`
-`mv bin/* /usr/local/bin`
+
+`mv bin/* /usr/local/bin`  
 
 Update dynamic linker cache:
 
@@ -62,21 +66,21 @@ Update dynamic linker cache:
 
 Now try running one of the Kakadu tools to make sure everything was set up properly:
 
-`kdu_merge`
-``Usage:
- "kdu_merge ...
-  -i <JP2/JPX/MJ2 file 1>[:<track>][:<from>-<to>][,...]
-  -o <JPX or MJ2 file>
-  -no_interleave -- don't interleave JPX headers with codestreams
-  -links -- record links rather than actual codestream data
-  -jpx_layers (<input>:<elt>)|(<space>,[alpha,]<channels>) [...]
-  -mj2_tracks (P|I1|I2):<from>-[<to>][@<fps>][,<from>-...] [...]
-  -composit [<iterations>@<fps>*]<layer-descriptor>[,...] [...]
-  -album [<seconds/frame>]
-  -s <switch file>
-  -quiet -- suppress informative messages.
-  -version -- print core system version I was compiled against.
-  -v -- abbreviation of `-version'
+`kdu_merge`  
+``Usage:  
+ "kdu_merge ...  
+  -i <JP2/JPX/MJ2 file 1>[:<track>][:<from>-<to>][,...]  
+  -o <JPX or MJ2 file>  
+  -no_interleave -- don't interleave JPX headers with codestreams  
+  -links -- record links rather than actual codestream data  
+  -jpx_layers (<input>:<elt>)|(<space>,[alpha,]<channels>) [...]  
+  -mj2_tracks (P|I1|I2):<from>-[<to>][@<fps>][,<from>-...] [...]  
+  -composit [<iterations>@<fps>*]<layer-descriptor>[,...] [...]  
+  -album [<seconds/frame>]  
+  -s <switch file>  
+  -quiet -- suppress informative messages.  
+  -version -- print core system version I was compiled against.  
+  -v -- abbreviation of `-version'  
   -usage -- print a comprehensive usage stat``
 
 
@@ -88,7 +92,7 @@ In order to function properly, Helioviewer requires write-access to several dire
 
 Enable Apache to write to the directories:
 
-`chgrp www-data log cache jp2/movies`
+`chgrp www-data log cache jp2/movies`  
 `chmod 755 log cache jp2/movies`
 
 ### Modify Config File
@@ -104,19 +108,22 @@ By default, the "compress_js" and "compress_css" parameters are set to "true" an
 `cd helioviewer/resources/build`  
 `ant`
 
-`` Buildfile: /var/www/helioviewer/resources/build/build.xml
- clean:
-    [echo] Removing old build files
- build:
-    [echo] Concatenating JavaScript/CSS
-    [echo] Minifying JavaScript/CSS
-    .......
-    [echo] Done!
- BUILD SUCCESSFUL
+`` Buildfile: /var/www/helioviewer/resources/build/build.xml  
+ clean:  
+    [echo] Removing old build files  
+ build:  
+    [echo] Concatenating JavaScript/CSS  
+    [echo] Minifying JavaScript/CSS  
+    .......  
+    [echo] Done!  
+ BUILD SUCCESSFUL  
  Total time: 3 seconds``
+
 
 Modify the database credentials in the "Private.php" file with the values you entered in the installation GUI.
 
+
 All done!
+
 
 To test the installation, open your web browser of choice and navigate to the location where Helioviewer is installed. If you installed Helioviewer to /var/www/helioviewer, you can view the website at http://localhost/helioviewer/. 
