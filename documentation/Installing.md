@@ -13,13 +13,15 @@ However, if you wish to install the Helioviewer Project on your own machine this
 ### Prerequisites
 
 First you will need to install all required packages.
+This guide has been designed to work with Ubuntu 20.04
 
 `sudo apt update;`  
 `sudo apt upgrade;`  
 
-`sudo apt install apache2 php php-curl php-pear php-mysqli php-imagick php-mbstring php-bcmath libapache2-mod-php mysql-server redis-server imagemagick python-mysqldb python3-mysqldb python-tk python3-tk python-pip python3-pip ffmpeg git libpng-dev libgsf-1-114 git;`  
+`sudo apt install apache2 php7.4 php7.4-mysql php7.4-curl php-pear php-imagick php-mbstring php-bcmath libapache2-mod-php mysql-server redis-server imagemagick python3-mysqldb python-tk python3-tk python3-pip ffmpeg git libpng-dev libgsf-1-114 git;`
 
-`pip3 install sunpy glymur zeep bs4 drms lxml;`  
+
+`pip3 install sunpy glymur zeep bs4 drms lxml numpy scipy datetime pandas bokeh==2.2.1 matplotlib pathlib joblib;`  
 
 ### Clone source-code
 
@@ -96,6 +98,7 @@ By default, the "compress_js" and "compress_css" parameters are set to "true" an
 
 Modify the database credentials in the "Private.php" file with the values you entered in the installation GUI.
 
+It is recommended to use a virtual host configuration within apache to direct requets to the api under a subdomain.
 
 All done!
 
