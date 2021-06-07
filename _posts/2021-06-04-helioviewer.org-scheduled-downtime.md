@@ -7,6 +7,6 @@ permalink: /2021/06/04/helioviewer.org-scheduled-downtime/
 categories:
   - General
 ---
-Helioviewer.org and its API services will be down from about 2021-06-11 12:00 Eastern Time to about 2021-06-14 12:00.
+Helioviewer.org and its API services will be down from about 2021-06-11 12:00 to about 2021-06-14 12:00 Eastern Time.
 This downtime will allow necessary maintenance to occur.
 We apologize for the interruption to our services.
