@@ -60,7 +60,7 @@ Follow the steps shown on screen. Processing the JPEG 2000 archive may take anyw
 Kakadu binaries and shared libraries for 32-bit and 64-bit linux can be found in the install/kakadu directory. Select the appropriate archive based on your architecture and extract the files:
 
 `cd install/kakadu`
-`tar zxvpf install/kakadu/Kakadu_v6_3_1-00781N_Linux-64-bit-Compiled.tar.gz`  
+`tar zxvpf Kakadu_v6_4_1-00781N_Linux-64-bit-Compiled.tar.gz`  
 
 Next, copy the Kakadu shared libraries and binaries to a known path, e.g.:
 
