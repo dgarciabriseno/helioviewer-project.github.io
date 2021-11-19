@@ -60,6 +60,7 @@ Follow the steps shown on screen. Processing the JPEG 2000 archive may take anyw
 Kakadu binaries and shared libraries for 32-bit and 64-bit linux can be found in the install/kakadu directory. Select the appropriate archive based on your architecture and extract the files:
 
 `cd install/kakadu`
+
 `tar zxvpf Kakadu_v6_4_1-00781N_Linux-64-bit-Compiled.tar.gz`  
 
 Next, copy the Kakadu shared libraries and binaries to a known path, e.g.:
@@ -71,7 +72,9 @@ Next, copy the Kakadu shared libraries and binaries to a known path, e.g.:
 Update dynamic linker cache:
 
 `sudo -s # enter root shell`
+
 `ldconfig`
+
 `exit # exit root shell`
 
 Now try running one of the Kakadu tools to make sure everything was set up properly:
@@ -86,7 +89,8 @@ In order to function properly, Helioviewer requires write-access to several dire
 
 Enable Apache to write to the directories:
 
-`chgrp www-data log cache jp2/movies`  
+`chgrp www-data log cache jp2/movies`
+
 `chmod 755 log cache jp2/movies`
 
 ### Modify Config File
@@ -99,7 +103,8 @@ Modify the "Config.ini" file so that the information (filepaths, etc) accurately
 
 By default, the "compress_js" and "compress_css" parameters are set to "true" and Helioviewer will expect to find minified versions of the javascript code and cascading stylesheets. Either set these parameters to "false", or run Apache Ant on the "scripts/build.xml" file to build the necessary products:
 
-`cd helioviewer/resources/build`  
+`cd helioviewer/resources/build`
+
 `ant`  
 
 Modify the database credentials in the "Private.php" file with the values you entered in the installation GUI.
