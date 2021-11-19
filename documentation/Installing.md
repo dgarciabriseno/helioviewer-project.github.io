@@ -16,18 +16,21 @@ First you will need to install all required packages.
 This guide has been designed to work with Ubuntu 20.04
 
 `sudo apt update;`  
+
 `sudo apt upgrade;`  
 
-`sudo apt install apache2 php7.4 php7.4-mysql php7.4-curl php-pear php-imagick php-mbstring php-bcmath libapache2-mod-php mysql-server redis-server imagemagick python3-mysqldb python-tk python3-tk python3-pip ffmpeg git libpng-dev libgsf-1-114 git;`
+`sudo apt install apache2 php7.4 php7.4-mysql php7.4-curl php-pear php-imagick php-mbstring php-bcmath php-redis libapache2-mod-php mysql-server redis-server imagemagick python3-mysqldb python-tk python3-tk python3-pip ffmpeg git libpng-dev libgsf-1-114 git ant`
 
-
-`pip3 install sunpy glymur zeep bs4 drms lxml numpy scipy datetime pandas bokeh==2.2.1 matplotlib pathlib joblib;`  
+`pip3 install sunpy glymur zeep bs4 drms lxml numpy scipy datetime pandas bokeh==2.2.1 matplotlib pathlib joblib`
 
 ### Clone source-code
 
-Clone the api repository into webroot usually located in “/var/www”  
-`git clone https://github.com/Helioviewer-Project/api.git`  
+Clone the api repository into webroot usually located in “/var/www”
+
+`git clone https://github.com/Helioviewer-Project/api.git api.helioviewer.org`  
+
 Clone the front-end repository into webroot usually located in “/var/www”  
+
 `git clone https://github.com/Helioviewer-Project/helioviewer.org.git`  
 
 
@@ -56,17 +59,20 @@ Follow the steps shown on screen. Processing the JPEG 2000 archive may take anyw
 
 Kakadu binaries and shared libraries for 32-bit and 64-bit linux can be found in the install/kakadu directory. Select the appropriate archive based on your architecture and extract the files:
 
-`tar zxvpf install/kakadu/Kakadu_v6_3_1-00781N_Linux-64-bit-Compiled.tar.gz`  
+`cd install/kakadu`
+`tar zxvpf Kakadu_v6_4_1-00781N_Linux-64-bit-Compiled.tar.gz`  
 
-Next, login as root (`sudo -s`) and copy the Kakadu shared libraries and binaries to a known path, e.g.:
+Next, copy the Kakadu shared libraries and binaries to a known path, e.g.:
 
-`mv lib/* /usr/local/lib/`
+`sudo cp lib/* /usr/local/lib/`
 
-`mv bin/* /usr/local/bin`  
+`sudo cp bin/* /usr/local/bin`  
 
 Update dynamic linker cache:
 
-`/sbin/ldconfig`
+`sudo -s # enter root shell`
+`ldconfig`
+`exit # exit root shell`
 
 Now try running one of the Kakadu tools to make sure everything was set up properly:
 
