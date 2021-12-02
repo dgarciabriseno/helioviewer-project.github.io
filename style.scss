@@ -130,6 +130,11 @@ img {
   background: $lightGray;
 }
 
+code::selection {
+  color:#000;
+  background: #aad3fc;
+}
+
 // Nicolas Gallagher's micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
 .clearfix:before,
