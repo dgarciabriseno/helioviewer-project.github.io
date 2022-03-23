@@ -1,5 +1,5 @@
 ---
-title: The Helioviewer Beta Server is Live!
+title: Unexpected Outage
 date: 2022-03-23T17:51:00-00:00
 author: Daniel Garcia Briseno
 layout: post
