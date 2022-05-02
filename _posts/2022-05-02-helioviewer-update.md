@@ -8,6 +8,9 @@ categories:
   - Maintenance
 ---
 
+Update 2022-05-02 21:20:
+  - The JPIP Server is up. GSFC is now available in JHelioviewer.
+
 The helioviewer migration to the new server is nearly complete. The
 [Helioviewer Website](https://helioviewer.org) is up and running.
 
