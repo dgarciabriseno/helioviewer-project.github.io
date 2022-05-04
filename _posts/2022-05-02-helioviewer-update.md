@@ -8,7 +8,11 @@ categories:
   - Maintenance
 ---
 
-Update 2022-05-02 21:20:
+Update 2022-05-04 18:30
+  - SOHO and STEREO pipelines have been restored and images will
+    become available on helioviewer as they're made available to us.
+
+Update 2022-05-02 21:20
   - The JPIP Server is up. GSFC is now available in JHelioviewer.
 
 The helioviewer migration to the new server is nearly complete. The
