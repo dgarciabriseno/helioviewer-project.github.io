@@ -1,6 +1,6 @@
 ---
 title: Solar Orbiter EUI images now available
-date: 2022-05-02T21:00:00-00:00
+date: 2022-07-13T21:00:00-00:00
 author: Jack Ireland
 layout: post
 permalink: /2022/07/12/eui_now_available/
