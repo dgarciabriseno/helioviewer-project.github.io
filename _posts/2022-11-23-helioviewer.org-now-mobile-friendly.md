@@ -1,6 +1,6 @@
 ---
 title: Helioviewer.org - now mobile friendly
-date: 2022-11-29T21:00:00-00:00
+date: 2022-11-29T16:40:00-00:00
 author: Jack Ireland
 layout: post
 permalink: /2022/11/23/helioviewer.org-now-mobile-friendly/
