@@ -1,4 +1,3 @@
-% Helioviewer User Guide
 
 # Introduction
 
