@@ -1,4 +1,3 @@
-
 # Introduction
 
 [Helioviewer.org][hvorg] is a browser-based solar and heliospheric data visualization application. With it you overlay and visualize data from multiple sources - observational data acquired by space- and ground- based instrumentation, feature and event information and data on other selected solar system celestial bodies. You can also make and share images and movies of what you see, and obtain the source scientific data for your own research.
@@ -18,37 +17,37 @@ When opened for the first, helioviewer.org shows a default selection of images c
 
 Different times and different types of data can be selected by clicking on the "Data Sources" tab on the left.
 
-![Data sources](images/user_guide/data_sources.png) \
+![Data sources](images/user_guide/data_sources.png)
 
 A drawer will pop-up that allows you to change the time (Observation time), the image shown (Images), information about solar features and events (Features and Events) and other aspects of the state of the solar system (Celestial Bodies).
 
-![Data Sources tab when open](images/user_guide/data_sources_open.png) \
+![Data Sources tab when open](images/user_guide/data_sources_open.png)
 
 Each of these can be opened to make selections.
 
 When you have selected your data sources, you can use the buttons
 
-![recenter and zoom](images/user_guide/recenter_and_zoom.png) \
+![recenter and zoom](images/user_guide/recenter_and_zoom.png)
 
 to re-center the view on the center of the Sun, and to zoom out and zoom in. Clicking and dragging your mouse in the viewer window pans the view.
 
 On the bottom the tab
 
-![timelines](images/user_guide/timelines.png) \
+![timelines](images/user_guide/timelines.png)
 
 opens up a time line viewer, showing the number and timing of the images and features/events you have selected. The time line also has a zoom in/out capability, and clicking and dragging with the mouse allows you to examine different times.
 
 In the upper left there are a number tools:
 
-![tools](images/user_guide/tools.png) \
+![tools](images/user_guide/tools.png)
 
 that provide more functionality to the application.  The first two
 
-![size scale tool](images/user_guide/tool_scale.png) \
+![size scale tool](images/user_guide/tool_scale.png)
 
 allow you to add a scale to the viewer window, either in terms of the size of the Earth or in kilometers.  Announcements concerning the Helioviewer Project are accessible here:
 
-![news tool](images/user_guide/tool_news_open.png) \
+![news tool](images/user_guide/tool_news_open.png)
 
 shown here in its open configuration. The remaining tools allow you to
 
