@@ -1,4 +1,8 @@
-# Introduction
+---
+layout: page
+title: User Guide
+permalink: /user_guide/
+---
 
 [Helioviewer.org][hvorg] is a browser-based solar and heliospheric data visualization application. With it you overlay and visualize data from multiple sources - observational data acquired by space- and ground- based instrumentation, feature and event information and data on other selected solar system celestial bodies. You can also make and share images and movies of what you see, and obtain the source scientific data for your own research.
 
