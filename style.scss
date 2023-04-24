@@ -288,6 +288,27 @@ footer {
   text-align: center;
 }
 
+/* additional styles  */
+
+@media screen and (min-width: 600px) {
+	
+	p img {
+		max-width: 450px;
+	}
+	
+	td {
+		vertical-align: middle;
+		min-width: 100px;
+		
+	}
+	
+	td img {
+		text-align: center;
+	}
+	
+}
+
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
