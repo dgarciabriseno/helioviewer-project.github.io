@@ -290,22 +290,33 @@ footer {
 
 /* additional styles  */
 
-@media screen and (min-width: 600px) {
-	
-	p img {
-		max-width: 450px;
-	}
-	
-	td {
-		vertical-align: middle;
-		min-width: 100px;
-		
-	}
-	
-	td img {
-		text-align: center;
-	}
-	
+p img {
+	max-width: 450px;
+}
+
+table {
+   border: 1px solid gray;
+   border-left: 0px solid #ffffff;
+}
+
+th {
+   padding: 6px;
+   font-weight: bold;
+   text-align: center;
+   border-left: 1px solid gray;
+   border-bottom: 1px solid gray;
+}
+
+td {
+   padding: 6px;
+   min-width: 100px;
+   border-left: 1px solid gray;
+   border-bottom: 1px solid gray;
+   vertical-align: middle;
+}
+
+td img {
+	text-align: center;
 }
 
 
