@@ -10,18 +10,53 @@ Simply visit [Helioviewer.org](https://helioviewer.org)
 
 However, if you wish to install the Helioviewer Project on your own machine this document has been created to aid you in this process.
 
-### Prerequisites
+## Run With Docker
+This is the preferred way to run Helioviewer on your system.
+Note that this container is designed as a development environment and should not be used for a production mirror.
+This requires that you have both docker and git installed.
 
-First you will need to install all required packages.
-This guide has been designed to work with Ubuntu 20.04
+In a terminal, run the following commands to perform a clean install.
+```bash
+mkdir helioviewer-docker
+cd helioviewer-docker
+git clone https://github.com/helioviewer-Project/api
+git clone https://github.com/helioviewer-Project/helioviewer.org
+cd helioviewer.org
+git submodule update --init --recursive
+cd ..
+docker run -p 127.0.0.1:8080:80 -p 127.0.0.1:8081:81 -v "$PWD/api:/home/helioviewer/api.helioviewer.org" -v "$PWD/helioviewer.org:/home/helioviewer/helioviewer.org" -d -t dgarciabriseno/helioviewer.org
+```
+This will do the following:
+1. Create a folder called helioviewer-docker in the directory that you run the above commands
+2. This will download the source code for Helioviewer's [API](https://github.com/Helioviewer-Project/api) and [Webserver](https://github.com/Helioviewer-Project/helioviewer.org)
+3. Run the docker container which hosts the webserver and back end processes needed to run host helioviewer.
 
-`sudo apt update;`
+Wait for the container to initialize.
+When looking at the logs, wait until you see the message "Container up and running."
+You can now view helioviewer at [localhost:8000](http://localhost:8000)
 
-`sudo apt upgrade;`
+The container takes care of all the **Manual Installation** steps seen below.
 
-`sudo apt install apache2 php7.4 php7.4-mysql php7.4-curl php-pear php-imagick php-mbstring php-bcmath php-redis libapache2-mod-php mysql-server redis-server imagemagick python3-mysqldb python-tk python3-tk python3-pip ffmpeg git libpng-dev libgsf-1-114 git ant`
+## Manual Installation
+This is typically not recommended, but may be the preferred installation method if you need more control over what's running on your server, for example if you plan on hosting a Helioviewer mirror.
 
-`pip3 install sunpy glymur zeep bs4 drms lxml numpy scipy datetime pandas bokeh==2.2.1 matplotlib pathlib joblib`
+Specific distro instructions are not listed here.
+Helioviewer will run on any linux distro as long as the dependencies are met.
+
+### Dependencices
+- >= PHP 8.0
+- Following PHP modules: mysqli redis imagick bcmath mbstring curl openssl sockets.
+(Some of these are php defaults, others need to be installed via package manager.)
+- Redis & php-redis (`pecl install redis`)
+- Image Magick >= 6.9.12 & php-imagick (`pecl install imagick`)
+- MySQL
+- >= Python 3.8 (lower versions of Python 3 may be ok)
+- Following python libraries: numpy sunpy matplotlib scipy glymur mysqlclient
+- tcsh
+- Apache Ant
+- Web server that runs PHP (nginx/apache/etc)
+- Ruby & the Resque gem
+- ffmpeg
 
 ### Clone source-code
 
@@ -37,28 +72,6 @@ cd into the helioviewer.org folder and run the following command to pull in
 project dependencies
 
 `git submodule update --init`
-
-
-### Setup the Database
-
-The next step is to process your JPEG 2000 (JP2) images and enter their information into the database for efficient querying.
-If you don't already have a JP2 dataset, you can download a sample dataset, e.g.:
-
-`wget http://helioviewer.org/jp2/archives/sample-data.tgz`
-
-`mkdir /var/www/jp2/`
-
-`tar zxvpf sample-data.tgz -C /var/www/jp2`
-
-If the MySQL daemon is not already running, start it:
-
-`sudo service mysql start`
-
-Change to the "api/install" directory and run the Helioviewer installation script:
-
-`python3 install.py`
-
-Follow the steps shown on screen. Processing the JPEG 2000 archive may take anywhere from several minutes to many hours depending on the size of the archives, and the number of files to be processed. For a small dataset like the sample one provided above, processing should only be a matter of minutes.
 
 ###  Setup Kakadu
 
@@ -85,6 +98,27 @@ Update dynamic linker cache:
 Now try running one of the Kakadu tools to make sure everything was set up properly:
 
 `kdu_merge`
+
+### Setup the Database
+
+The next step is to process your JPEG 2000 (JP2) images and enter their information into the database for efficient querying.
+If you don't already have a JP2 dataset, you can download a sample dataset, e.g.:
+
+`wget http://helioviewer.org/jp2/archives/sample-data.tgz`
+
+`mkdir /var/www/jp2/`
+
+`tar zxvpf sample-data.tgz -C /var/www/jp2`
+
+If the MySQL daemon is not already running, start it:
+
+`sudo service mysql start`
+
+Change to the "api/install" directory and run the Helioviewer installation script:
+
+`python3 install.py`
+
+Follow the steps shown on screen. Processing the JPEG 2000 archive may take anywhere from several minutes to many hours depending on the size of the archives, and the number of files to be processed. For a small dataset like the sample one provided above, processing should only be a matter of minutes.
 
 ### Create Caching/Logging Directories
 
