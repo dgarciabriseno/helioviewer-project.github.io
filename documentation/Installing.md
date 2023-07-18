@@ -38,10 +38,10 @@ You can now view helioviewer at [localhost:8000](http://localhost:8000)
 The container takes care of all the **Manual Installation** steps seen below.
 
 ## Manual Installation
-This is typically not recommended, but may be the preferred installation method if you need more control over what's running on your server, for example if you plan on hosting a Helioviewer mirror.
+Use these instructions if you need more control over what's running on your server, for example if you plan on hosting a Helioviewer mirror.
 
 Specific distro instructions are not listed here.
-Helioviewer will run on any linux distro as long as the dependencies are met.
+Helioviewer will run on any linux distro as long as these dependencies are met.
 
 ### Dependencices
 - >= PHP 8.0
@@ -113,6 +113,8 @@ If you don't already have a JP2 dataset, you can download a sample dataset, e.g.
 If the MySQL daemon is not already running, start it:
 
 `sudo service mysql start`
+
+If you intend to have mysql start automatically when the system powers on, then also run: `sudo systemctl enable mysql`
 
 Change to the "api/install" directory and run the Helioviewer installation script:
 
