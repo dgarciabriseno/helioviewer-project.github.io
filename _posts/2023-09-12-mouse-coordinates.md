@@ -1,6 +1,6 @@
 ---
 title: Coordinates return to Helioviewer
-date: 2023-09-12T11:30:00-05:00
+date: 2023-09-12T11:30:00-04:00
 author: Daniel Garcia Briseno & Jack Ireland
 layout: post
 permalink: /2023/09/12/MouseCoords/
