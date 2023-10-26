@@ -65,6 +65,21 @@ shown here in its open configuration. The remaining tools allow you to
 | ![help tool](images/user_guide/tool_help.png)           | get help on helioviewer.org |
 | ![settings tool](images/user_guide/tool_settings.png)  | change settings on helioviewer.org |
 
+## Opening videos in JHelioviewer
+Helioviewer now supports opening helioviewer.org movies in [JHelioviewer](https://www.jhelioviewer.org/).
+
+To open a movie in JHelioviewer, first have JHelioviewer running, then open one of your movies in [helioviewer.org](https://helioviewer.org).
+
+In the bottom right of the video player window you will see an "Open In JHelioviewer" button.
+![Video player window with JHelioviewer button](/images/uploads/2023/jhv-video.jpg)
+
+If JHelioviewer is not running, the button will say "JHV is not open" and the button will not be clickable. Make sure to open JHelioviewer first.
+
+When you click the button, JHelioviewer will display a notification asking if you'd like to accept the incoming request.
+![SAMP Hub Security popup](/images/uploads/2023/security.jpg)
+
+Click **Yes** to load the movie in JHelioviewer.
+
 ## Available observational data
 A list of all the available observational data, and the time-range of
 data available is maintained at [our status page][hvstatus]. More
