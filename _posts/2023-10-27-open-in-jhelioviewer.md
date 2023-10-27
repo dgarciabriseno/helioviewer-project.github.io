@@ -1,5 +1,5 @@
 ---
-title: Opening Videos in JHelioviewer
+title: Opening Movies in JHelioviewer
 date: 2023-10-27T00:00:00-05:00
 author: Daniel Garcia Briseno
 layout: post
@@ -22,19 +22,19 @@ a javascript library which implements the SAMP protocol, and library we develope
 [jhvrequest](https://www.npmjs.com/package/jhvrequest) which provides a clean
 javascript interface for sending datasets to JHelioviewer.
 
-Technically speaking, the mp4 video itself is not sent to JHelioviewer. Instead,
-the list of the layers in the video and the video's timespan are sent to JHelioviewer
+Technically speaking, the mp4 itself is not sent to JHelioviewer. Instead,
+the list of the layers in the movie and the movie's timespan are sent to JHelioviewer
 so that it can reconstruct the movie.
 
 ## Limitations
-Currently videos containing XRT or GONG layers are not supported.
+Currently movies containing XRT or GONG layers are not supported.
 
 ## How-To?
 To open a movie in JHelioviewer, first have JHelioviewer running, then open one of your movies in [helioviewer.org](https://helioviewer.org).
 
-In the bottom right of the video player window you will see an "Open In JHelioviewer" button.
+In the bottom right of the movie player window you will see an "Open In JHelioviewer" button.
 
-![Video player window with JHelioviewer button](/images/uploads/2023/jhv-video.jpg)
+![Movie player window with JHelioviewer button](/images/uploads/2023/jhv-video.jpg)
 
 If JHelioviewer is not running, the button will say "JHV is not open" and the button will not be clickable. Make sure to open JHelioviewer first.
 
