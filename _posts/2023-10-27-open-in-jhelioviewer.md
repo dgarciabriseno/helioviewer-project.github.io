@@ -29,7 +29,7 @@ so that it can reconstruct the movie.
 ## Limitations
 Currently movies containing XRT layers are not supported.
 
-## How-To?
+## How To?
 To open a movie in JHelioviewer, first have JHelioviewer running, then open one of your movies in [helioviewer.org](https://helioviewer.org).
 
 In the bottom right of the movie player window you will see an "Open In JHelioviewer" button.
