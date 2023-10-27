@@ -18,13 +18,16 @@ When JHelioviewer is running, it acts as a SAMP Hub and accepts requests to
 load images specified in the SAMP message.
 
 Helioviewer is able to communicate with JHelioviewer thanks to [sampjs](https://github.com/astrojs/sampjs),
-a javascript library which implements the SAMP protocol, and a newly developed library
+a javascript library which implements the SAMP protocol, and library we developed called
 [jhvrequest](https://www.npmjs.com/package/jhvrequest) which provides a clean
 javascript interface for sending datasets to JHelioviewer.
 
 Technically speaking, the mp4 video itself is not sent to JHelioviewer. Instead,
 the list of the layers in the video and the video's timespan are sent to JHelioviewer
 so that it can reconstruct the movie.
+
+## Limitations
+Currently videos containing XRT and GONG layers are not supported.
 
 ## How-To?
 To open a movie in JHelioviewer, first have JHelioviewer running, then open one of your movies in [helioviewer.org](https://helioviewer.org).
