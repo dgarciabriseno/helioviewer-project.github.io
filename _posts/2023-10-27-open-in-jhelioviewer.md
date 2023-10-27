@@ -27,7 +27,7 @@ the list of the layers in the movie and the movie's timespan are sent to JHeliov
 so that it can reconstruct the movie.
 
 ## Limitations
-Currently movies containing XRT or GONG layers are not supported.
+Currently movies containing XRT layers are not supported.
 
 ## How-To?
 To open a movie in JHelioviewer, first have JHelioviewer running, then open one of your movies in [helioviewer.org](https://helioviewer.org).
