@@ -27,6 +27,9 @@ the image datasets available from Helioviewer.
 Below are examples of using HAPI with Python and JavaScript.
 You can find a list of officially supported clients [here](https://github.com/hapi-server/?q=client-&type=all).
 
+If your desired language isn't supported, you can review the [API specification](https://github.com/hapi-server/data-specification)
+to write a new client.
+
 ### With Python
 ```python
 >>> from hapiclient import hapi
@@ -64,7 +67,6 @@ hapi("https://api.helioviewer.org/hapi/helioviewer/hapi",
  * {
  *  Time: ["2023-01-01T00:00:05Z", "2023-01-01T00:00:41Z"...]
  *  url: ["https://helioviewer.org/jp2/AIA/2023/01/01/304/2023_01_01__00_00_05_129__SDO_AIA_AIA_304.jp2"...]
- *
  * }
  */
 ```
