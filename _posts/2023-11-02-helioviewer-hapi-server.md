@@ -1,9 +1,9 @@
 ---
 title: HAPI with Helioviewer
-date: 2023-11-01T00:00:00-05:00
+date: 2023-11-02T00:00:00-05:00
 author: Daniel Garcia Briseno
 layout: post
-permalink: /2023/11/01/hapi
+permalink: /2023/11/02/hapi
 categories:
   - General
 ---
@@ -14,7 +14,7 @@ Helioviewer supports HAPI for listing images and some image metadata.
 
 # What is HAPI?
 
-HAPI stands for Heliophysics Data Application Programmer’s Interface.
+[HAPI](https://hapi-server.github.io/) stands for Heliophysics Data Application Programmer’s Interface.
 It is a modern API that makes it very simple to deliver time series data to applications.
 You can interact with HAPI directly from the browser or within a programming language.
 
