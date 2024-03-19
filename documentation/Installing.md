@@ -12,30 +12,7 @@ However, if you wish to install the Helioviewer Project on your own machine this
 
 ## Run With Docker
 This is the preferred way to run Helioviewer on your system.
-Note that this container is designed as a development environment and should not be used for a production mirror.
-This requires that you have both docker and git installed.
-
-In a terminal, run the following commands to perform a clean install.
-```bash
-mkdir helioviewer-docker
-cd helioviewer-docker
-git clone https://github.com/helioviewer-Project/api
-git clone https://github.com/helioviewer-Project/helioviewer.org
-cd helioviewer.org
-git submodule update --init --recursive
-cd ..
-docker run -p 127.0.0.1:8080:80 -p 127.0.0.1:8081:81 -v "$PWD/api:/home/helioviewer/api.helioviewer.org" -v "$PWD/helioviewer.org:/home/helioviewer/helioviewer.org" -d -t dgarciabriseno/helioviewer.org
-```
-This will do the following:
-1. Create a folder called helioviewer-docker in the directory that you run the above commands
-2. This will download the source code for Helioviewer's [API](https://github.com/Helioviewer-Project/api) and [Webserver](https://github.com/Helioviewer-Project/helioviewer.org)
-3. Run the docker container which hosts the webserver and back end processes needed to run host helioviewer.
-
-Wait for the container to initialize.
-When looking at the logs, wait until you see the message "Container up and running."
-You can now view helioviewer at [localhost:8000](http://localhost:8000)
-
-The container takes care of all the **Manual Installation** steps seen below.
+Follow the README instructions [here](https://github.com/Helioviewer-Project/helioviewer.org-docker)
 
 ## Manual Installation
 Use these instructions if you need more control over what's running on your server, for example if you plan on hosting a Helioviewer mirror.
