@@ -8,9 +8,7 @@ categories:
   - Maintenance
 ---
 
-Update: Maintenance date was rescheduled from June 24 to July 1.
-
-[helioviewer.org](https://helioviewer.org) will be undergoing scheduled maintenance on Monday July 1
+[helioviewer.org](https://helioviewer.org) will be undergoing scheduled maintenance on Monday July 15
 from 9:00am - 2:00pm US/Eastern time.
 
 During this time you can expect the following:
