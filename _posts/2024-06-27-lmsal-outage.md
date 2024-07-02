@@ -8,6 +8,8 @@ categories:
   - Outages
 ---
 
+2024-07-02 Update: SDO data observed during the outage is available on Helioviewer.
+
 The data center managed by Lockheed Martin Solar & Astrophysics Lab (LMSAL)
 will be offline between June 28, 5:00pm Pacific Time to late night June 29.
 
