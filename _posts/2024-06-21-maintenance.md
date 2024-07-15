@@ -8,6 +8,8 @@ categories:
   - Maintenance
 ---
 
+Update 2024-07-15: This maintenance is complete.
+
 [helioviewer.org](https://helioviewer.org) will be undergoing scheduled maintenance on Monday July 15
 from 9:00am - 2:00pm US/Eastern time.
 
